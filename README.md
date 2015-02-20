@@ -33,7 +33,7 @@ MyApp
 
 ### Git configuration
 
-Add a .gitignore:
+Add a `MyApp\.gitignore`:
 
 ```
 node_modules/
