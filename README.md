@@ -266,6 +266,8 @@ Tutorial to be continued...
 
 ### Test you angular app from a Wakanda server
 
+WARNING: it will replace your `MyApp/Demo/WebFolder` content with your angular application. Make sure you don't have any previous work inside.
+
 From `MyApp/Demo/`:
 
 ```bash
