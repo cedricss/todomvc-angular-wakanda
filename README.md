@@ -3,13 +3,13 @@
 
 ---
 
-## Install Yeoman
+## Yeoman installation 
 
 ```bash
 npm install -g yo
 ```
 
-## Install Wakanda Project Generator
+## Wakanda Project Generator installation
 
 ```bash
 npm install -g generator-wakanda-project
@@ -138,15 +138,26 @@ Demo/package.json
 Demo/parsingExceptions.json
 ```
 
-### Start the angular app
 
-You can start the app from `MyApp\Demo\angularApp` folder:
+## Starting the angular app
+
+To try this app, make sure to start first the Wakanda server.
+
+From `MyApp/`:
 
 ```bash
 grunt serve
 ```
 
-## TodoMVC angular app with Wakanda
+Then start the angular app (configured to connect to Wakanda server default port)
+
+From `MyApp/Demo/angularapp/`:
+
+```bash
+grunt serve
+```
+
+## Creating a TodoMVC with Wakanda & Angular
 
 For example, add the following JS code in `MyApp\Demo\angularApp\app\scripts\controllers\main.js`:
 
@@ -249,22 +260,6 @@ Finally, update your main view `MyApp\Demo\angularApp\app\view\main.html`:
 
 ```
 Tutorial to be continued...
-```
-
-To try this app, make sure to start first the Wakanda server.
-
-From `MyApp/`:
-
-```bash
-grunt serve
-```
-
-Then start the angular app (configured to connect to Wakanda server default port)
-
-From `MyApp/Demo/angularapp/`:
-
-```bash
-grunt serve
 ```
 
 ### WebFolder
