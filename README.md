@@ -264,18 +264,23 @@ Finally, update your main view `MyApp\Demo\angularApp\app\view\main.html`:
 Tutorial to be continued...
 ```
 
-### WebFolder
+### Test you angular app from a Wakanda server
 
-If you want to mix your app with pages created with the studio, you can copy your application files inside `MyApp/Demo/WebFolder`.
 From `MyApp/Demo/`:
 
 ```bash
 grunt wakCopy
 ```
 
-### Building your application
+It copies your angular app inside the `MyApp/Demo/WebFolder` directory.
 
-From `MyApp/Demo/angularApp`
+You can now test your app from the Wakanda server.
+
+### Cloud Deployment
+
+First, build your angular application.
+
+From `MyApp/Demo/angularApp`:
 
 ```bash
 grunt build
@@ -283,6 +288,20 @@ grunt build
 
 It builds the app in the `MyApp/Demo/angularApp/dist` folder.
 
-### Cloud deployment
+Then, copy the built files back in your Wakanda Solution (ie. inside the `WebFolder` directory):
 
-???
+From `MyApp/Demo`:
+
+```bash
+grunt wakCopybuild
+```
+
+Then you can push your Wakanda Solution on the cloud.
+For example, if you have a `mycloud` remote referencing your cloud repository:
+
+From `MyApp/`:
+
+```
+git push mycloud master:production
+```
+
