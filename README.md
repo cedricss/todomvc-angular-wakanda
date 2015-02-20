@@ -25,7 +25,9 @@ In this example, the project is called "Demo" and the following files are genera
 ```
 MyApp
   |- Demo
+     |- ...
   |- Demo Solution
+     |- ...
   |- Gruntfile.js
   |- node_modules
   |- package.json
