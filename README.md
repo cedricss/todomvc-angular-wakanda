@@ -264,9 +264,9 @@ Finally, update your main view `MyApp\Demo\angularApp\app\view\main.html`:
 Tutorial to be continued...
 ```
 
-### Test your angular app from a Wakanda server
+## Test your angular app from a Wakanda server
 
-WARNING: it will replace your `MyApp/Demo/WebFolder` content with your angular application. Make sure you don't have any previous work inside.
+*WARNING* it will replace your `MyApp/Demo/WebFolder` content with your angular application. Make sure you don't have any previous work inside.
 
 From `MyApp/Demo/`:
 
@@ -278,7 +278,7 @@ It copies your angular app inside the `MyApp/Demo/WebFolder` directory.
 
 You can now test your app from the Wakanda server.
 
-### Cloud Deployment
+## Cloud Deployment
 
 First, build your angular application.
 
