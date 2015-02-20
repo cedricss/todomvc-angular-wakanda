@@ -288,7 +288,7 @@ grunt build
 
 It builds the app in the `MyApp/Demo/angularApp/dist` folder.
 
-Then, copy the built files back in your Wakanda Solution (ie. inside the `WebFolder` directory):
+Then, copy the built files back in your Wakanda Project (ie. inside the `MyApp/Demo/WebFolder` directory):
 
 From `MyApp/Demo`:
 
