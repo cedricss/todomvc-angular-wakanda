@@ -225,7 +225,7 @@ And update your router to initialize a proxy to the Wakanda datastore. In `MyApp
 
 ```
 angular
-  .module('todoMvcApp', [
+  .module('Demo', [
     'ngResource',
     'ngRoute',
     'wakanda'
