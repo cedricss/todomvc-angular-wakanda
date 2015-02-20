@@ -103,7 +103,7 @@ brew install ruby
 sudo gem install compass
 ```
 
-Generate you angular-wakanda app in `MyApp\Demo` project folder:
+Generate your angular-wakanda app in `MyApp\Demo` project folder:
 
 ```bash
 yo angular-wakanda
@@ -264,7 +264,7 @@ Finally, update your main view `MyApp\Demo\angularApp\app\view\main.html`:
 Tutorial to be continued...
 ```
 
-### Test you angular app from a Wakanda server
+### Test your angular app from a Wakanda server
 
 WARNING: it will replace your `MyApp/Demo/WebFolder` content with your angular application. Make sure you don't have any previous work inside.
 
